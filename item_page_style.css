@@ -103,18 +103,6 @@ header nav a {
 
 }
 
-.search {
-    /* устанавливаем необходимую ширину формы в зависимости от дизайна
-    ** форма без проблем растягивается */
-    width: 20%;
-    display: inline-block;
-    margin-left: 10%;
-    /* кнопку отправки будем позиционировать абсолютно,
-    ** поэтому необходимо это свойство */
-    position: relative;
-    top: -33px;
-}
-
 .product-image img{
     width: 250px;
     height: 250px;
@@ -196,34 +184,4 @@ header nav a {
     box-shadow: 15px 15px 15px rgba(0, 255, 255, 0.4);
     transition: border 500ms .500ms, box-shadow 500ms .500ms;
     border: 2px solid rgba(0, 255, 255, 0.4);
-}
-
-@media (max-width: 600px) {
-    .product-description{
-        margin: 0;
-        padding: 0;
-        display: block;
-    }
-
-    .product-about{
-        margin: 0;
-        padding: 0;
-        display: block;
-    }
-
-    .product-image{
-        display: block;
-        margin: 0;
-        padding: 0;
-    }
-
-    .product-image img{
-        margin: 0;
-        padding: 0;
-    }
-
-    .info{
-        display: block;
-    }
-
 }
